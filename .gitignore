@@ -17,3 +17,24 @@ _ReSharper.*
 *.db
 *.sdf
 *.tmp
+
+# Database files
+*.mdf
+*.ldf
+*.ndf
+App_Data/*.mdf
+App_Data/*.ldf
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+
+# Upgrade logs
+UpgradeLog*.htm
+UpgradeLog*.XML
+_UpgradeReport_Files/
+
+# TFS Temp files
+TFSTemp/
+**/TFSTemp/**
